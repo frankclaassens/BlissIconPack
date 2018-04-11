@@ -14,7 +14,7 @@
 
     <item
         component=":BROWSER"
-        drawable="browser" />
+        drawable="internet" />
 
     <item
         component=":CALCULATOR"
@@ -34,7 +34,7 @@
 
     <item
         component=":CONTACTS"
-        drawable="contacts" />
+        drawable="contact" />
 
     <item
         component=":EMAIL"
@@ -50,7 +50,7 @@
 
     <item
         component=":SMS"
-        drawable="sms" />
+        drawable="message" />
 
     <item
         component=":LAUNCHER_ACTION_APP_DRAWER"
@@ -58,6 +58,10 @@
 
     <item
         component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}"
+        drawable="internet" />
+
+    <item
+        component="ComponentInfo{io.eelo.browser/io.eelo.browser.MainActivity}"
         drawable="internet" />
 
     <item
@@ -2541,6 +2545,14 @@
         drawable="google_earth" />
 
     <item
+        component="ComponentInfo{io.eelo.mail.debug/io.eelo.mail.activity.Accounts}"
+        drawable="email" />
+
+    <item
+        component="ComponentInfo{io.eelo.mail/io.eelo.mail.activity.Accounts}"
+        drawable="email" />
+
+    <item
         component="ComponentInfo{com.android.email/com.android.email.activity.Welcome}"
         drawable="email" />
 
@@ -3845,6 +3857,14 @@
         drawable="map" />
 
     <item
+        component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}"
+        drawable="message" />
+
+    <item
+        component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.ConversationListActivity}"
+        drawable="message" />
+
+    <item
         component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer}"
         drawable="message" />
 
@@ -4338,355 +4358,355 @@
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.activities.FileBrowserMain}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.mars.miuifilemanager/com.mars.miuifilemanager.ui.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.mobisystems.fileman/com.mobisystems.files.FileBrowser}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity.common.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.common.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.piggy.myfiles/com.piggy.myfiles.MyFiles}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.jrdcom.filemanager/com.jrdcom.filemanager.activity.FileBrowserActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.mars.miuifilemanager/com.mars.miuifilemanager.ui.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.MainFileManageActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.MainFileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sprd.fileexplorer/com.sprd.fileexplorer.activities.FileExploreActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.rhmsoft.fm.pro/com.rhmsoft.fm.pro.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.common.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.asus.filemanager/com.asus.filemanager2.activity.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.activity.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.FileManager/com.motorola.FileManager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.motorola.filemanager/com.motorola.filemanager.MainFileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.rhmsoft.fm/com.rhmsoft.fm.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FilerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.common.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerFragment}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.qrdfileexplorer/com.android.qrdfileexplorer.QRDFileExplorer}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.softwinner.explore/com.softwinner.explore.Main}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.mhoffs.filemanager/com.mhoffs.filemanager.AMain}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{cDHQ.FileManagerForAndroid/DHQ.FileManagerForAndroid.Splash}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sand.file/com.sand.file.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{android.dopod.FileManager/android.dopod.FileManager.dopodFileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.lewa.filemanager/com.lewa.filemanager.FileManagerMainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.oppo.filemanager/com.oppo.filemanager.FileBrowser}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{nextapp.fx/nextapp.fx.ui.ExplorerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.Main}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.mobisystems.fileman/com.mobisystems.office.FileBrowser}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
-        component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}"
-        drawable="my_files" />
+        component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}"
+        drawable="files" />
 
     <item
         component="ComponentInfo{fm.clean/fm.clean.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowserActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.FileBrowser}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{nextapp.fx/nextapp.fx.ui.textedit.TextEditorActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.htc.htccnfilemanager/com.htc.htccnfilemanager.htccnFileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.FileManager.Activity/com.android.FileManager.Activity.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.hisense.FileManager.Activity/com.hisense.FileManager.Activity.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.filemanager.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.mifileexplorer/com.android.mifileexplorer.FileExplorerFragment}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{xcxin.filexpert/xcxin.filexpert.FileLister}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{org.openintents.cmfilemanager/org.openintents.cmfilemanager.FileManagerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.adao.android.afm/com.adao.android.afm.CoverActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.blackmoonit.android.FileBrowser/com.blackmoonit.android.FileBrowser.FileListActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorer.TabActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{nextapp.fx/nextapp.fx.ui.ExplorerActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.rhmsoft.fm/com.rhmsoft.fm.FileManager}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.rhmsoft.fm.hd/com.rhmsoft.fm.hd.FileManagerHD}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.lge.filemanager/com.lge.filemanager.view.LaunchActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.common.MainActivity}"
-        drawable="my_files" />
+        drawable="files" />
 
     <item
         component="ComponentInfo{com.samsunguk.mygalaxy/com.grapplemobile.samsungsuperapp.MainActivity}"
@@ -5854,7 +5874,11 @@
 
     <item
         component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}"
-        drawable="mic" />
+        drawable="recorder" />
+
+    <item
+        component="ComponentInfo{org.lineageos.recorder/org.lineageos.recorder.RecorderActivity}"
+        drawable="recorder" />
 
     <item
         component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity}"
