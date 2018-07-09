@@ -6216,4 +6216,10 @@
         component="ComponentInfo{org.asdtm.goodweather/org.asdtm.goodweather.MainActivity}"
         drawable="weather" />
 
+    <item
+        component="ComponentInfo{it.niedermann.owncloud.notes/it.niedermann.owncloud.notes.android.activity.SplashscreenActivity}"
+        drawable="notes" />
+
+
+
 </resources>
