@@ -921,6 +921,10 @@
         drawable="camera" />
 
     <item
+        component="ComponentInfo{net.sourceforge.opencamera/net.sourceforge.opencamera.MainActivity}"
+        drawable="camera" />
+
+    <item
         component="ComponentInfo{com.musthak.pandoramusic/com.musthak.pandoramusic.MainActivity}"
         drawable="camera" />
 
