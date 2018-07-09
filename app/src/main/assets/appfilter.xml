@@ -6207,4 +6207,9 @@
     <item
         component="ComponentInfo{com.dewmobile.kuaiya.play/com.dewmobile.kuaiya.act.DmStartupActivity}"
         drawable="zapya" />
+
+    <item
+        component="ComponentInfo{org.asdtm.goodweather/org.asdtm.goodweather.MainActivity}"
+        drawable="weather" />
+
 </resources>
