@@ -2749,6 +2749,10 @@
         drawable="facebook" />
 
     <item
+        component="ComponentInfo{org.mozilla.fennec_fdroid/org.mozilla.fennec_fdroid.App}"
+        drawable="internet" />
+
+    <item
         component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}"
         drawable="firefox" />
 
@@ -2758,7 +2762,7 @@
 
     <item
         component="ComponentInfo{org.mozilla.fennec/org.mozilla.fennec.App}"
-        drawable="firefox" />
+        drawable="internet" />
 
     <item
         component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}"
