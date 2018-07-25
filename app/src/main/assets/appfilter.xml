@@ -2765,6 +2765,10 @@
         drawable="internet" />
 
     <item
+        component="ComponentInfo{org.mozilla.focus/org.mozilla.focus.activity.MainActivity}"
+        drawable="internet" />
+
+    <item
         component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}"
         drawable="firefox" />
 
