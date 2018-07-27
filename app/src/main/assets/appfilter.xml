@@ -5885,7 +5885,7 @@
         drawable="s_note" />
 
     <item
-        component="ComponentInfo{org.dmfs.tasks/.TaskListActivity}"
+        component="ComponentInfo{org.dmfs.tasks/org.dmfs.tasks.TaskListActivity}"
         drawable="tasks" />
 
     <item
