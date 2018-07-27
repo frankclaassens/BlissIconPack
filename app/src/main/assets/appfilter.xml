@@ -5705,6 +5705,10 @@
         drawable="image" />
 
     <item
+        component="ComponentInfo{com.android.fmradio/.FmMainActivity}"
+        drawable="radio" />
+
+    <item
         component="ComponentInfo{com.sec.android.app.fm/com.sec.android.app.fm.MainActivity}"
         drawable="radio" />
 
