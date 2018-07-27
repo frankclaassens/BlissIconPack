@@ -5885,6 +5885,10 @@
         drawable="s_note" />
 
     <item
+        component="ComponentInfo{org.dmfs.tasks/.TaskListActivity}"
+        drawable="tasks" />
+
+    <item
         component="ComponentInfo{com.tgrape.android.radar/com.tgrape.android.radar.activity.Loading}"
         drawable="s_suggestion" />
 
