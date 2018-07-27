@@ -3849,24 +3849,28 @@
         drawable="line" />
 
     <item
+        component="ComponentInfo{com.generalmagic.magicearth/com.R66.android.map.MapActivity}"
+        drawable="maps" />
+
+    <item
         component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}"
-        drawable="map" />
+        drawable="maps" />
 
     <item
         component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}"
-        drawable="map" />
+        drawable="maps" />
 
     <item
         component="ComponentInfo{com.mobihouse.placesnearby/com.mobihouse.placesnearby.SplashScreen}"
-        drawable="map" />
+        drawable="maps" />
 
     <item
         component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}"
-        drawable="map" />
+        drawable="maps" />
 
     <item
         component="ComponentInfo{com.google.android.apps.maps/com.android.internal.app.ResolverActivity }"
-        drawable="map" />
+        drawable="maps" />
 
     <item
         component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}"
