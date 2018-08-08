@@ -6241,6 +6241,10 @@
         drawable="weather" />
 
     <item
+        component="ComponentInfo{foundation.e.weather/foundation.e.weather.MainActivity}"
+        drawable="weather" />
+
+    <item
         component="ComponentInfo{it.niedermann.owncloud.notes/it.niedermann.owncloud.notes.android.activity.SplashscreenActivity}"
         drawable="notes" />
 
