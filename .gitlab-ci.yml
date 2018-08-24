@@ -2,6 +2,7 @@ image: "registry.gitlab.eelo.io:5000/eelo/docker-android-apps-cicd:latest"
 
 stages:
 - build
+- publish
 
 before_script:
 - export GRADLE_USER_HOME=$(pwd)/.gradle
@@ -19,3 +20,15 @@ build:
   artifacts:
     paths:
     - app/build/outputs/apk
+
+publish-prebuiltapks:
+  stage: publish
+  script:
+  - |
+      curl --request POST \
+      --form "token=$CI_JOB_TOKEN" \
+      --form ref=master \
+      --form "variables[PROJECT_PATH]=$CI_PROJECT_PATH" \
+      --form "variables[JOB]=$CI_JOB_ID" \
+      --form "variables[FILE_PATH]=app/build/outputs/apk/release/app-release-unsigned.apk" \
+      https://gitlab.eelo.io/api/v4/projects/81/trigger/pipeline
