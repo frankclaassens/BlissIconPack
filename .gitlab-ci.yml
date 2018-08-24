@@ -26,7 +26,7 @@ publish-prebuiltapks:
   script:
   - |
       curl --request POST \
-      --form "token=$CI_JOB_TOKEN" \
+      --form "token=$PUBLISHING_TOKEN" \
       --form ref=master \
       --form "variables[PROJECT_PATH]=$CI_PROJECT_PATH" \
       --form "variables[JOB]=$CI_JOB_ID" \
