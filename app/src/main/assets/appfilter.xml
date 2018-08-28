@@ -2826,55 +2826,59 @@
 
     <item
         component="ComponentInfo{com.socialnmobile.hd.flashlight/com.socialnmobile.hd.flashlight.Flashlight}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.devuni.flashlight/com.devuni.flashlight.MainActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.lenovo.lenovohdllight/com.lenovo.lenovohdllight.LenovoHdlLight}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.lampe.torcher.flashlight/com.gpit.android.tools.flashlight.BlackTheme4}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.htc.flashlight/com.htc.flashlight.FlashlightActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.intellectualflame.ledflashlight.washer/com.intellectualflame.ledflashlight.washer.FlashlightActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.surpax.ledflashlight.panel/com.surpax.ledflashlight.FlashlightActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.asus.flashlight/com.asus.flashlight.FlashLightMainActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.appsdev.flashlight.adfree/com.appsdev.flashlight.adfree.MenuActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.zeroneapps.flashlight/com.zeroneapps.flashlight.MainActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.huawei.flashlight/com.huawei.flashlight.FlashlightActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.htc.flashlight/com.htc.flashlight.FlashlightActivity}"
-        drawable="flash_light" />
+        drawable="light" />
 
     <item
         component="ComponentInfo{goldenshorestechnologies.brightestflashlight.free/goldenshorestechnologies.brightestflashlight.free.BrightestFlashlightMain}"
-        drawable="flash_light" />
+        drawable="light" />
+
+    <item
+        component="ComponentInfo{com.simplemobiletools.flashlight.debug/com.simplemobiletools.flashlight.activities.SplashActivity.Teal}"
+        drawable="light" />
 
     <item
         component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.Gallery}"
