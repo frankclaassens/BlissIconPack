@@ -160,7 +160,7 @@
         drawable="phone" />
 
     <item
-        component="ComponentInfo{com.android.dialer/com.android.app.DialtactsActivity}"
+        component="ComponentInfo{com.android.dialer/com.android.dialer.app.DialtactsActivity}"
         drawable="phone" />
 
     <!-- Radio -->
