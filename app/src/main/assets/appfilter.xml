@@ -146,7 +146,7 @@
         drawable="music" />
 
     <item
-        component="ComponentInfo{com.lineageos.eleven/com.lineageos.eleven.ui.activities.HomeActivity}"
+        component="ComponentInfo{org.lineageos.eleven/org.lineageos.eleven.ui.activities.HomeActivity}"
         drawable="music" />
 
     <!-- Notes -->
