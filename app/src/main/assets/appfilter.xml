@@ -70,6 +70,10 @@
         component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}"
         drawable="calendar" />
 
+    <item
+        component="ComponentInfo{foundation.e.calendar/foundation.e.calendar.activities.SplashActivity.Orange}"
+        drawable="calendar" />
+
     <!-- Camera -->
     <item
       component="ComponentInfo{net.sourceforge.opencamera/net.sourceforge.opencamera.MainActivity}"
