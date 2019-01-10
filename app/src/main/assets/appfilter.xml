@@ -56,6 +56,11 @@
         component=":LAUNCHER_ACTION_APP_DRAWER"
         drawable="ic_allapps" />
 
+    <!-- AppInstaller -->
+    <item
+        component="ComponentInfo{io.eelo.appinstaller/io.eelo.appinstaller.MainActivity}"
+        drawable="appinstaller" />
+
     <!-- Calculator -->
     <item
         component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}"
