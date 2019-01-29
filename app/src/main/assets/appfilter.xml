@@ -58,7 +58,7 @@
 
     <!-- AppInstaller -->
     <item
-        component="ComponentInfo{io.eelo.appinstaller/io.eelo.appinstaller.MainActivity}"
+        component="ComponentInfo{foundation.e.apps/foundation.e.apps.MainActivity}"
         drawable="appinstaller" />
 
     <!-- Calculator -->
