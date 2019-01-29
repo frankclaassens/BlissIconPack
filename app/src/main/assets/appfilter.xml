@@ -142,11 +142,7 @@
 
     <!-- Message -->
     <item
-        component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}"
-        drawable="message" />
-
-    <item
-        component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.ConversationListActivity}"
+        component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.feature.main.MainActivity}"
         drawable="message" />
 
     <item
