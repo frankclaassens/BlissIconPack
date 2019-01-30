@@ -75,6 +75,10 @@
         component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}"
         drawable="calendar" />
 
+    <item
+        component="ComponentInfo{foundation.e.calendar/com.android.calendar.AllInOneActivity}"
+        drawable="calendar" />
+
     <!-- Camera -->
     <item
       component="ComponentInfo{net.sourceforge.opencamera/net.sourceforge.opencamera.MainActivity}"
@@ -99,6 +103,10 @@
         component="ComponentInfo{io.eelo.mail/io.eelo.mail.activity.Accounts}"
         drawable="email" />
 
+    <item
+        component="ComponentInfo{foundation.e.mail/foundation.e.mail.activity.Accounts}"
+        drawable="email" />
+
     <!-- Files -->
     <item
       component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}"
@@ -109,14 +117,18 @@
         component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}"
         drawable="gallery" />
 
-  <!-- Internet -->
-  <item
-      component="ComponentInfo{io.eelo.browser/io.eelo.browser.MainActivity}"
-      drawable="internet" />
+    <!-- Internet -->
+    <item
+        component="ComponentInfo{io.eelo.browser/io.eelo.browser.MainActivity}"
+        drawable="internet" />
 
     <!-- Light -->
     <item
         component="ComponentInfo{com.simplemobiletools.flashlight.debug/com.simplemobiletools.flashlight.activities.SplashActivity.Teal}"
+        drawable="light" />
+
+    <item
+        component="ComponentInfo{foundation.e.light/foundation.e.light.activities.SplashActivity.Teal}"
         drawable="light" />
 
     <!-- Maps -->
@@ -137,6 +149,10 @@
         component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.ConversationListActivity}"
         drawable="message" />
 
+    <item
+        component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.feature.main.MainActivity}"
+        drawable="message" />
+
     <!-- Music -->
     <item
         component="ComponentInfo{com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity}"
@@ -149,6 +165,10 @@
     <!-- Notes -->
     <item
         component="ComponentInfo{it.niedermann.owncloud.notes/it.niedermann.owncloud.notes.android.activity.SplashscreenActivity}"
+        drawable="notes" />
+
+    <item
+        component="ComponentInfo{foundation.e.notes/foundation.e.notes.android.activity.SplashscreenActivity}"
         drawable="notes" />
 
     <!-- Phone -->

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="org.indin.blissiconpack">
+    package="foundation.e.blissiconpack">
 
     <application
         android:allowBackup="true"
