@@ -122,6 +122,10 @@
         component="ComponentInfo{io.eelo.browser/io.eelo.browser.MainActivity}"
         drawable="internet" />
 
+    <item
+        component="ComponentInfo{foundation.e.browser/com.google.android.apps.chrome.Main}"
+        drawable="internet" />
+
     <!-- Light -->
     <item
         component="ComponentInfo{com.simplemobiletools.flashlight.debug/com.simplemobiletools.flashlight.activities.SplashActivity.Teal}"
