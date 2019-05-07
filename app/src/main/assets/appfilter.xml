@@ -146,11 +146,7 @@
 
     <!-- Message -->
     <item
-        component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.feature.main.MainActivity}"
-        drawable="message" />
-
-    <item
-        component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.feature.main.MainActivity}"
+        component="ComponentInfo{foundation.e.message/com.moez.QKSMS.feature.main.MainActivity}"
         drawable="message" />
 
     <!-- Music -->
